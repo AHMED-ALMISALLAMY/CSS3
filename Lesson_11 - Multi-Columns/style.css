@@ -1,0 +1,29 @@
+/* 
+    column-count: ;
+    column-gab: ;
+    column-rule-width: ;
+    column-rule-style: ;
+    column-rule-color: ;
+    column-rule: ;
+    column-span: ;
+    column-width: ;
+    columns: ;
+*/
+
+
+
+div {
+    column-count: 3;
+    column-gap: 60px;
+    column-rule-width: 3px;
+    column-rule-style: dotted;
+    column-rule-color: cyan;
+
+
+    /* column-width: 400px; */
+}
+
+
+h1 {
+    column-span: all;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+    background-color: #eee;
+}
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+
+
+.nav ul li {
+    padding: 10px;
+    color: rgb(43, 226, 95);
+}
+
+
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width: 768px)
+{
+    .nav ul {flex-direction: column;}
+
+    .nav ul li {border-bottom: 1px solid #000; text-align: center;}
+}

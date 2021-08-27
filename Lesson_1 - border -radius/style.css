@@ -1,0 +1,25 @@
+/*
+vendor prefix.
+    -webkit-    // -> Google chrome and safari.
+    -moz-       // -> firefox.
+    -ms-        // -> internet explorer.
+    -o-         // -> opera.
+*/
+
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 50px auto;
+    -webkit-border-radius: 10px 50px;
+    border-radius: 10px 50px;
+
+    /* 
+        border-top-left-radius: ;
+        border-top-right-radius: ;
+        border-bottom-left-radius: ;
+        border-bottom-right-radius: ;   
+    */
+
+}

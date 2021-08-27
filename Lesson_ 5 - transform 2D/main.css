@@ -1,0 +1,35 @@
+/* 
+    transform: translate(x , y);
+    transform: rotate();
+    transform: scale(w , h);
+*/
+
+
+
+body {
+    margin: 0;
+}
+
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    /* transform: translate(50px , 50px); */
+    border-radius: 40%;
+    margin: 100px auto;
+
+    /* transform: rotate(20deg); */
+
+    /* transform: scale(2);
+    transform: skew(12deg, 12deg); */
+
+    transform: matrix(1 , 0 , 0 , 1 , 100 , 100);
+}
+
+
+
+/* 
+    matrix(scaleX , skewY , skewX , scaleY , transX , transY)
+*/

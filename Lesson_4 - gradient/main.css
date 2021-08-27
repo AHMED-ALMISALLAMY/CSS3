@@ -1,0 +1,24 @@
+/* 
+    - Linear (start line and end line)
+    - radial (start circle and end circle)
+
+    background: -webkit-linear-gradient(direction,firstcolor,thirdcolor);
+*/
+
+
+div {
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: black;
+    background: -webkit-linear-gradient(top left,yellow 60%,blue);
+}
+
+
+
+.div2 {
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background: -webkit-radial-gradient(50% 50% , circle , yellow , green);
+}

@@ -1,0 +1,97 @@
+/* Grid
+
+    grid-template-columns: 30% 30% 30%; 
+    grid-template-columns: repeat(3 , 30%); 
+    grid-template-columns: repeat(3 , 1fr); 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-auto-rows: minmax();  (min height , max height)
+
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-gap = row , column;
+
+
+
+    grid-column-start: 1;   -> start from line 1
+    grid-column-end: 3;       -> end at line 3
+    grid-column: 1 / 3;         => (shortcut of grid-c-start-and-end)
+
+
+    justify-item: ;  (control item left or right)
+    align-item: ;    (control item top or buttom)
+
+
+    grid-area: grid-row-start , grid-column-start , grid-row-end , grid-column-end;
+
+
+    grid-template-area: "head head head head";  (4 column)
+*/
+
+
+
+
+body {
+    text-align: center;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    /* grid-template-rows: repeat(3 , 200px);  */
+    /* grid-auto-rows: minmax(200px , grid-auto-rows);   */
+    grid-gap: 10px;
+}
+
+
+
+.grid-container > .item {
+    padding: 30px;
+    background: #333;
+    color: white;
+    
+}
+
+
+
+/* .grid-nested {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: 100px 150px 90px;
+} */
+
+
+.item1 {
+    grid-column-start: 1;   
+    grid-column-end: 3;
+    /* grid-template-areas: "head head head head head"; */
+}
+
+
+.item6 {
+    /* grid-column-start: 4;   
+    grid-column-end: 5; */
+    grid-column: 4 / 5;
+}
+
+
+
+.item5 {
+    grid-column-start: 2;   
+    grid-column-end: 4;
+}
+
+
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+
+.item11 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
+

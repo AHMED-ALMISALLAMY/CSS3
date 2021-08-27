@@ -1,0 +1,42 @@
+/* 
+    Linear (Same speed)
+    easy (start slow - fast at middle - end slow)
+    easy-in (start slow then fast)
+    easy-out (start fast then slow)
+    easy-in-out (slow)
+
+
+    transition: transition-property transition-duration transition-timing-function transition-delay;
+*/
+
+
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    /* transition-property: background , width;
+    transition-duration: 2s; */
+
+    /* transition-property: width; */
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    /* transition-timing-function: steps(3 , end); */
+
+     transition-delay: 3s;     /*Before start wait 1s */
+
+
+    transition: all 1s linear 3s;
+
+}
+
+
+
+div:hover {
+    /* background-color: greenyellow; */
+    width: 200px;
+}
+
+

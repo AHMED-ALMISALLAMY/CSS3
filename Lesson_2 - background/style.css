@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+
+.div-img {
+    height: 100px;
+    width: 100px;
+    /* background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background: rgb(210, 137, 1);
+    padding: 20px;
+    border: 5px dotted greenyellow;
+    background: url(images.jpeg) no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+
+
+}

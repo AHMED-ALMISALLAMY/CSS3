@@ -1,0 +1,63 @@
+body {
+    perspective: 600px;
+    /* perspective-origin: left top; */
+}
+
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    background-color: #f50;
+    margin: 50px auto;
+    /* transform: translateZ(50px); */
+
+    /* transform: rotateZ(80deg); */
+
+
+    /* transform: matrix3d(1,0,0.00,0,0.00,1,0.00,0,0,0,1,0,0,0,0,1); */
+
+    /* transform: translateZ(40px) rotateX(30deg); */
+
+
+
+    transform-origin: bottom right;
+
+
+    transform: rotateY(40deg);
+}
+
+
+img:hover {
+    transform: rotateY(40deg);
+}
+
+
+
+
+
+.parent {
+    width: 600px;
+    height: 600px;
+    background-color: #f50;
+    transform: rotateX(60deg) rotateZ(40deg);
+    transform-style: flat;
+    transform-style: preserve-3d;
+}
+
+
+.child1 {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    transform: translateZ(30px) rotateX(50deg);
+
+}
+
+
+
+.child2 {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    transform: translateZ(50px) rotateY(100deg);
+}

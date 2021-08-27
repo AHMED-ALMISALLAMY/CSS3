@@ -1,0 +1,67 @@
+/* 
+    display: flex;
+    flex-direction: row or column or row reverse or column reverse;
+    flex-grow: ;
+    flex-shrink: ;
+    flex-wrap: wrap;
+    flex-bases: ; (control the width and height of item and make shrink)
+    justify-content: center or space-between or space-around; 
+    align-item: flex-start or flex-end or center; (control height)
+    align-content: flex-start or flex-end or center; (control height)
+    align-self: ; (control one item)
+
+    flex-flow: flex-direction flex-wrap; 
+
+
+    flex: flex-grow flex-shrink flex-basis;
+*/
+
+
+
+
+body {
+    background-color: #AAA;
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 970px;
+    margin: auto;
+}
+
+
+.parent {
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 100px;
+    min-width: 200px;
+    /* flex-grow: 1; */
+}
+
+
+.first {
+    background-color: greenyellow;
+    /* flex-grow: 2; */
+    /* flex-shrink: 1; */
+}
+
+
+.second {
+    background-color: deepskyblue;
+    /* flex-grow: 3; */
+    /* flex-shrink: 2; */
+}
+
+
+.third{
+    background-color: red;
+    /* flex-grow: 2; */
+    /* flex-shrink: 3; */
+}
